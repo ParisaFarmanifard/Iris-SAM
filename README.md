@@ -1,4 +1,4 @@
-# SAM for CASIA Dataset
+# SAM for Iris
 This repository contains the code for training and inference of SAM on Iris dataset.
 
 ## Requirements
