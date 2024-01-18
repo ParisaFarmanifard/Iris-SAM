@@ -1,0 +1,9 @@
+torch>=1.7
+torchvision>=0.7
+opencv-python
+opencv-contrib-python
+matplotlib
+tqdm
+tensorboard
+git+https://github.com/facebookresearch/segment-anything.git
+# ! wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth &> /dev/null
