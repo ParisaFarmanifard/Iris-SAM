@@ -1,1 +1,0 @@
-You can download any of the pre-trained SAM models and place it in this folder. 
