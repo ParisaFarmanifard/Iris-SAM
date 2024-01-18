@@ -23,10 +23,10 @@ python sam_train_losses.py --data_dir data  --epochs 100 --loss focal --lr 0.000
 
 Model checkpoints will be saved in `save_dir` (default: `checkpoints/ft`). The program will save two checkpoints, one with optimizer and one without optimizer. The optimizer checkpoint is used for resuming training.
 The checkpoint without optimizer (`model.pt`) is used for inference. We already provide a fine-tuned checkpoint in `google drive`.
-
+```
 ## Testing
 We also provide a script to test the model on the val set. To test the model, run the following command:
-```
+
 
 python sam_t_orgcolor.py --data_dir data --pretrained_model *path_to_model/model.pt --save_dir *path_to_output/ND_test
 
