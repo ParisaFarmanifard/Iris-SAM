@@ -52,3 +52,10 @@ If you get errors with cv2 while plotting bboxes on the image, uninstall and ins
 pip uninstall opencv-python-headless -y 
 pip install opencv-python --upgrade
 ```
+## Acknowledgmenets
+- We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
+- We thank Meta AI for making the source code of [SAM]([https://www.google.com/](https://github.com/facebookresearch/segment-anything)https://github.com/facebookresearch/segment-anything) publicly available 
+
+
+
+
