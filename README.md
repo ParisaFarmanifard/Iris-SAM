@@ -2,7 +2,7 @@
 This repository contains the code for training and inference of SAM on Iris dataset.
 
 ## Requirements
-- Download SAM checkpoints [SAM](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)
+- Download SAM's [checkpoints](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)
 
 All testing has  been done on Linux with Nvidia GPUs (Cuda). First, we need to make a conda environment with the following command:
 ```
