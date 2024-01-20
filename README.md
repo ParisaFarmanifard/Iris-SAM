@@ -52,6 +52,3 @@ If you get errors with cv2 while plotting bboxes on the image, uninstall and ins
 pip uninstall opencv-python-headless -y 
 pip install opencv-python --upgrade
 ```
-<!-- ==================All The Losses ==================-->
-python train.py --loss dice
-python train.py --loss focal
