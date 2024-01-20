@@ -54,7 +54,4 @@ pip install opencv-python --upgrade
 ```
 <!-- ==================All The Losses ==================-->
 python train.py --loss dice
-python train.py --loss iou
 python train.py --loss focal
-
-tensorboard --logdir=/research/iprobe-farmanif/sam_ft_final/Casiav3_checkpoints/checkpoints_h_sam/checkpoints_h/casia_finetune_diceloss/
