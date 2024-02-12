@@ -56,8 +56,8 @@ pip uninstall opencv-python-headless -y
 pip install opencv-python --upgrade
 ```
 ## Citations
-Please cite our paper if you are using the repository. 
-https://arxiv.org/abs/2402.06497
+Please cite our paper if you are using the repository 
+(https://arxiv.org/abs/2402.06497).
 
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
