@@ -59,6 +59,12 @@ pip install opencv-python --upgrade
 Please cite our paper if you are using the repository 
 (https://arxiv.org/abs/2402.06497).
 
+@article{farmanifard2024iris,
+  title={Iris-SAM: Iris Segmentation Using a Foundational Model},
+  author={Farmanifard, Parisa and Ross, Arun},
+  journal={arXiv preprint arXiv:2402.06497},
+  year={2024}
+}
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
 - We thank Meta AI for making the source code of [SAM](https://github.com/facebookresearch/segment-anything) publicly available.
