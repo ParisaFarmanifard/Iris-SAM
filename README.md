@@ -1,4 +1,4 @@
-# SAM for Iris
+# Iris Segmentation Using Foundational Model
 This repository contains the code for training and inference of SAM on Iris dataset.
 
 ## Requirements
