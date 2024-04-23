@@ -1,4 +1,5 @@
 import os
+from torchvision.models.detection import fasterrcnn_resnet50_fpn
 from segment_anything import  sam_model_registry, SamPredictor
 import torch
 import numpy as np
@@ -19,7 +20,25 @@ def mouse_callback(event, x, y, flags, param):
         if len(points) == 2:
             cv2.rectangle(image, points[0], points[1], (0, 255, 0), 2)
         cv2.imshow(param['name'], image)
+# Function to generate bounding boxes using Faster R-CNN
+# def get_bounding_boxes(image):
+#     detection_model = fasterrcnn_resnet50_fpn(pretrained=True)
+#     detection_model.eval()
 
+#     image_tensor = F.to_tensor(cv2.cvtColor(image, cv2.COLOR_BGR2RGB)).unsqueeze(0)
+#     with torch.no_grad():
+#         predictions = detection_model(image_tensor)
+    
+#     # Get boxes with high confidence (e.g., scores > 0.7)
+#     high_confidence_boxes = [
+#         box.cpu().numpy() for box, score in zip(predictions[0]['boxes'], predictions[0]['scores']) if score > 0.7
+#     ]
+
+#     if high_confidence_boxes:
+#         # Select the box with the highest score
+#         return high_confidence_boxes[0]
+#     else:
+#         return None
 def draw_box_points(image, name='Image', num_points=4):
     
     # Create a window and set the mouse callback function
