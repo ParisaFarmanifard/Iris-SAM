@@ -29,7 +29,6 @@ def mouse_callback(event, x, y, flags, param):
 #     with torch.no_grad():
 #         predictions = detection_model(image_tensor)
     
-#     # Get boxes with high confidence (e.g., scores > 0.7)
 #     high_confidence_boxes = [
 #         box.cpu().numpy() for box, score in zip(predictions[0]['boxes'], predictions[0]['scores']) if score > 0.7
 #     ]
