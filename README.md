@@ -69,6 +69,7 @@ Please cite our paper if you are using the repository
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
 - We thank Meta AI for making the source code of [SAM](https://github.com/facebookresearch/segment-anything) publicly available.
+- MedSAM.
 
 
 
