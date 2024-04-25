@@ -35,7 +35,7 @@ python sam_t_orgcolor.py --data_dir data --pretrained_model *path_to_model/model
 
 
 ## Inference
-To run inference, we need to provide bbox coordinates for the segmentation region in the image. This is how SAM works,i.e. it requires a prompt along with image for prediction. In our case, the prompt is the bbox coordinates. We provide a script to run inference on a single image. To run inference, run the following command:
+To run inference, we need to provide bbox coordinates for the segmentation region in the image (automated). This is how SAM works,i.e. it requires a prompt along with image for prediction. In our case, the prompt is the bbox coordinates. We provide a script to run inference on a single image. To run inference, run the following command:
 
 ```     
 python sam_infer.py --image_path {PATH_TO_IMAGE_OR_DIR} --pretrained_model weights/sam_model_casia_ft.pt --save_dir results
