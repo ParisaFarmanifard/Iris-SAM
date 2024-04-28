@@ -128,12 +128,7 @@ def train(args):
                     dense_prompt_embeddings=dense_embeddings,
                     multimask_output=False,
                 )
-                # ----------------------------------------
-                # to control nan / for numerical stability
-                # pred_masks = torch.clamp(pred_masks, min=1e-7, max=1-1e-7)
-                # ----------------------------------------
-
-
+    
                 # upscaled_masks = sam_model.postprocess_masks(low_res_masks, input_size, original_image_size).to(device)
                 # binary_mask = normalize(threshold(upscaled_masks, 0.0, 0))
 
