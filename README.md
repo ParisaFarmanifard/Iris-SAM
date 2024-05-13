@@ -46,7 +46,7 @@ when  you run the above command, an image window will be opened. You will be ask
 Teh inference command can either take a single image or a directory containing multiple images as input. In case of directory, also provide the extension of the images. For example, if the images are in `.jpg` format, run the following command:
 
 ```
-python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained_model weights/sam_model_casia_ft.pt --save_dir results
+python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained_model weights/model.pt --save_dir results
 ```
 
 
