@@ -31,7 +31,7 @@ The checkpoint without optimizer (`model.pt`) is used for inference. We already 
 We also provide a script to test the model on the val set. To test the model, run the following command:
 
 ```
-python sam_test_main.py --data_dir data --pretrained_model *path_to_model/model.pt --save_dir *path_to_output/ND_test
+python sam_test.py --data_dir data --pretrained_model *path_to_model/model.pt --save_dir *path_to_output/ND_test
 ```
 
 ## Inference
