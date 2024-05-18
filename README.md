@@ -30,9 +30,9 @@ The checkpoint without optimizer (`model.pt`) is used for inference. We already 
 ## Testing
 We also provide a script to test the model on the val set. To test the model, run the following command:
 
-
+```
 python sam_test_main.py --data_dir data --pretrained_model *path_to_model/model.pt --save_dir *path_to_output/ND_test
-
+```
 
 ## Inference
 To run inference, we need to provide bbox coordinates for the segmentation region in the image (automated). This is how SAM works,i.e. it requires a prompt along with image for prediction. In our case, the prompt is the bbox coordinates. We provide a script to run inference on a single image. To run inference, run the following command:
