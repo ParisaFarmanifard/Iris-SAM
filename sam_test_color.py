@@ -18,7 +18,7 @@ def smooth_mask(mask, kernel_size=3):
     return mask
 
 def plot_masks(image, pred_mask, image_path, save_dir, gt_mask=None, gt_box=None):
-    # Define colors
+    
     dark_blue = [139, 30, 30]  # BGR format for dark blue (visible against most backgrounds)
     dark_green = [0, 128, 0]  # BGR format for dark green
     black = [0,0,0]
