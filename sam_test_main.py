@@ -1,3 +1,4 @@
+# Here is the main code to test the trained model
 import os
 from segment_anything import  sam_model_registry, SamPredictor
 from torch.utils.data import DataLoader
