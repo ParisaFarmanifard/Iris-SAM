@@ -12,8 +12,8 @@ def smooth_mask(mask, kernel_size=3):
     Apply morphological operations to smooth the mask.
     """
     kernel = np.ones((kernel_size, kernel_size), np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)  # Removes noise
-    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel) # Closes small holes
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)  
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
     return mask
 
 def plot_masks(image, pred_mask, image_path, save_dir, gt_mask=None, gt_box=None):
