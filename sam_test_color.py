@@ -1,4 +1,3 @@
-# ND-iris-0405 dataset and IITD
 import os
 from segment_anything import sam_model_registry, SamPredictor
 from torch.utils.data import DataLoader
