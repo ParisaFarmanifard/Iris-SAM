@@ -14,15 +14,12 @@ def plot_masks(image, masks, image_file, save_dir, gt_box=None):
         cv2.rectangle(result, tuple(gt_box[:2]), tuple(gt_box[2:]), (255, 0, 0), 2)
     save_path = os.path.join(save_dir, os.path.basename(image_file))
     cv2.imwrite(save_path, result)
-    
-# Define the mouse callback function
+
 def mouse_callback(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         points = param['points']
         image = param['image']
-        # Store the clicked point
         points.append((x, y))
-        # Draw a circle at the clicked point
         cv2.circle(image, (x, y), 5, (0, 255, 0), -1)
         # Display the updated image
         if len(points) == 2:
@@ -31,21 +28,17 @@ def mouse_callback(event, x, y, flags, param):
 
 def draw_box_points(image, name='Image', num_points=4):
     
-    # Create a window and set the mouse callback function
     cv2.namedWindow(name)
     params = {'points': [], 'image': image, 'name': name}
     cv2.setMouseCallback(name, mouse_callback, params)
 
     print('Please draw top left and bottom right corners of bounding box on the image')
 
-    # Display the image
     cv2.imshow(name, image)
 
-    # Wait for the user to provide n points
     while len(params['points']) < num_points:
         cv2.waitKey(1)
     
-    # Close the image window
     return params['points']
     
 
