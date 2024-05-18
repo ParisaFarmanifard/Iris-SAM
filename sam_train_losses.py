@@ -32,14 +32,6 @@ def focal_loss(pred, target, alpha=0.8, gamma=2):
     F_loss = alpha * (1-pt)**gamma * BCE_loss
     return F_loss.mean()
 
-# focal function - gives 'nan'
-# def focal_loss(pred, target, alpha=0.8, gamma=2):
-#     criterion = nn.CrossEntropyLoss()
-#     ce_loss = criterion(pred, target)
-#     pt = torch.exp(-ce_loss)
-#     focal_loss = (alpha * (1-pt)**gamma * ce_loss).mean()
-#     return focal_loss
-
 
 def train(args):
     
