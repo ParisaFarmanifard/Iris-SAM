@@ -67,7 +67,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     infer(args.data_dir, args.save_dir, args.pretrained_model)
-# ===================================== 
+# ==============Color======================= 
 # import os
 # from segment_anything import sam_model_registry, SamPredictor
 # from torch.utils.data import DataLoader
