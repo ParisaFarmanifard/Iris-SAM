@@ -13,9 +13,9 @@ import torch.nn as nn
 from torch.nn.functional import threshold, normalize
 from torch.utils import tensorboard
 import numpy as np
-
 from dataset import SAMDataset
 from utils.common import save_model, load_model
+
 
 def dice_loss(pred, target, smooth=1.):
     intersection = (pred * target).sum()
