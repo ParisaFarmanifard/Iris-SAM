@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-The dataset is provided in `data` directory along with images and masks. The directory also contains `train.txt` and `val.txt` files which contain the names of training and validation images respectively. The images are in `.jpg` format and masks are in `.png` format.
+The dataset is provided in `data` directory along with images and masks. The images are in `.jpg` format and masks are in `.png` format.
 
 ## Training
 To train the model, run the following command:
