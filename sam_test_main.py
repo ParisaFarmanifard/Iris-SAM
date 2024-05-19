@@ -166,7 +166,7 @@ if __name__ == '__main__':
 #     parser = argparse.ArgumentParser('SAM model inference')
 #     parser.add_argument('--data_dir', type=str, default='data', help='path to data directory')
 #     parser.add_argument('--save_dir', type=str, default='outputs/', help='path to save directory')
-#     parser.add_argument('--pretrained_model', type=str, default='/research/iprobe-farmanif/sam_ft_final/checkpoints/iitd/gamma_2.0/model.pt', help='path to pretrained model')
+#     parser.add_argument('--pretrained_model', type=str, default='*/gamma_2.0/model.pt', help='path to pretrained model')
 #     args = parser.parse_args()
 #     infer(args.data_dir, args.save_dir, args.pretrained_model)
     
