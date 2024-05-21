@@ -7,8 +7,8 @@ This repository contains the code for training and inference of SAM on Iris data
  
 First, we need to make a conda environment with the following command:
 ```
-conda create -n sam python=3.8
-conda activate sam
+conda create -n iris-sam python=3.8
+conda activate iris-sam
 ```
 Then, we need to install the requirements:
 ```
@@ -43,7 +43,7 @@ python sam_infer.py --image_path {PATH_TO_IMAGE_OR_DIR} --pretrained_model weigh
 
 when  you run the above command, an image window will be opened. You will be asked to draw (click) the top left and bottom right coordinates of the bbox using mouse pointer.  Results will be saved in `save_dir` (default: `outputs/results`). The results include the overlay of predicted and ground truth masks. 
 
-Teh inference command can either take a single image or a directory containing multiple images as input. In case of directory, also provide the extension of the images. For example, if the images are in `.jpg` format, run the following command:
+The inference command can either take a single image or a directory containing multiple images as input. In case of directory, also provide the extension of the images. For example, if the images are in `.jpg` format, run the following command:
 
 ```
 python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained_model weights/model.pt --save_dir results
