@@ -1,5 +1,5 @@
 # Iris Segmentation Using a Foundation Model
-This repository contains the code for training and inference of SAM on Iris dataset.
+This repository contains the code for training and inference of Iris-SAM.
 
 ## Requirements
 - Download SAM's [checkpoints](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints)
