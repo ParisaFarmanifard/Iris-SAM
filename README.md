@@ -60,7 +60,7 @@ If you find this repository useful, please consider giving a star ⭐ and a cita
 (https://arxiv.org/abs/2402.06497).
 ```
 @article{farmanifard2024iris,
-  title={Iris-SAM: Iris Segmentation Using a Foundation Model},
+  title={Iris-SAM: Iris Segmentation Using a Foundational Model},
   author={Farmanifard, Parisa and Ross, Arun},
   journal={arXiv preprint arXiv:2402.06497},
   year={2024}
