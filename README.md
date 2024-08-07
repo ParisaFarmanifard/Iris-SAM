@@ -62,7 +62,7 @@ If you find this repository useful, please consider giving a star ⭐ and a cita
 @article{farmanifard2024iris,
   title={Iris-SAM: Iris Segmentation Using a Foundational Model},
   author={Farmanifard, Parisa and Ross, Arun},
-  journal={arXiv preprint arXiv:2402.06497},
+  journal={Proc. of 4th International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI), (Jeju Island, South Korea), July 2024.},
   year={2024}
 }
 ```
