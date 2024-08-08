@@ -38,11 +38,12 @@ python sam_test.py --data_dir data --pretrained_model *path_to_model/model.pt --
 To run inference, we need to provide bbox coordinates for the segmentation region in the image (automated). This is how SAM works,i.e. it requires a prompt along with image for prediction. In our case, the prompt is the bbox coordinates. We provide a script to run inference on a single image. To run inference, run the following command:
 
 ## Results
-<p align="center">
-  <img src="/assets/result1.jpg" width="30%" />
-  <img src="/assets/result2.jpg" width="30%" />
-  <img src="/assets/result3.jpg" width="30%" />
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <img src="/assets/result1.jpg" alt="Result 1" style="width: 300px; margin: 10px;" />
+  <img src="/assets/result2.jpg" alt="Result 2" style="width: 300px; margin: 10px;" />
+  <img src="/assets/result3.jpg" alt="Result 3" style="width: 300px; margin: 10px;" />
 </p>
+
 ```     
 python sam_infer.py --image_path {PATH_TO_IMAGE_OR_DIR} --pretrained_model weights/model.pt --save_dir results
 ```
