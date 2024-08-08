@@ -50,11 +50,11 @@ python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained
 ## Results
 <p align="center" style="display: flex; justify-content: space-around; align-items: center;">
   <div>
-    <img src="/assets/GT_Mask.jpg" alt="Ground Truth Mask" style="width: 100%;" />
+    <img src="/assets/result1.jpg" alt="Ground Truth Mask" style="width: 100%;" />
     <p style="text-align: center;">GT Mask</p>
   </div>
   <div>
-    <img src="/assets/Pred_Mask.jpg" alt="Predicted Mask" style="width: 100%;" />
+    <img src="/assets/result2.jpg" alt="Predicted Mask" style="width: 100%;" />
     <p style="text-align: center;">Pred Mask</p>
   </div>
 </p>
