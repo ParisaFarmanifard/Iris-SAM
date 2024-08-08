@@ -48,14 +48,14 @@ The inference command can either take a single image or a directory containing m
 python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained_model weights/model.pt --save_dir results
 ```
 ## Results
-<p align="center" style="display: flex; justify-content: space-around; align-items: center;">
-  <div>
-    <img src="/assets/result1.jpg" alt="Ground Truth Mask" style="width: 50%;" />
-    <p style="text-align: center;">GT Mask</p>
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <div style="width: 50%; text-align: center;">
+    <img src="/assets/GT_Mask.jpg" alt="Ground Truth Mask" style="width: 90%;"/>
+    <p>GT Mask</p>
   </div>
-  <div>
-    <img src="/assets/result2.jpg" alt="Predicted Mask" style="width: 50%;" />
-    <p style="text-align: center;">Pred Mask</p>
+  <div style="width: 50%; text-align: center;">
+    <img src="/assets/Pred_Mask.jpg" alt="Predicted Mask" style="width: 90%;"/>
+    <p>Pred Mask</p>
   </div>
 </p>
 
