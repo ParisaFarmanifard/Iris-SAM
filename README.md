@@ -59,12 +59,8 @@ pip install opencv-python --upgrade
 If you find this repository useful, please consider giving a star ⭐ and a citation.
 (https://arxiv.org/abs/2402.06497).
 ```
-@article{farmanifard2024iris,
-  title={Iris-SAM: Iris Segmentation Using a Foundational Model},
-  author={Farmanifard, Parisa and Ross, Arun},
-  journal={Proc. of 4th International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI), (Jeju Island, South Korea), July 2024.},
-  year={2024}
-}
+P. Farmanifard and A. Ross, "Iris-SAM: Iris Segmentation Using a Foundation Model," Proc. of 4th International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI), (Jeju Island, South Korea), July 2024.
+
 ```
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
