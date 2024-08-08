@@ -49,7 +49,7 @@ python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained
 ```
 ## Results
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
-  <img src="/assets/result1.jpg" alt="Result 1" style="width: 300px; margin: 10px;" />
+<!--   <img src="/assets/result1.jpg" alt="Result 1" style="width: 300px; margin: 10px;" /> -->
   <img src="/assets/result2.jpg" alt="Result 2" style="width: 300px; margin: 10px;" />
   <img src="/assets/result3.jpg" alt="Result 3" style="width: 300px; margin: 10px;" />
 </p>
