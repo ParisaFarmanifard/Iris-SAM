@@ -39,9 +39,9 @@ To run inference, we need to provide bbox coordinates for the segmentation regio
 
 ## Results
 <p align="center">
-  <img src="/assets/" width="30%" />
-  <img src="/assets/result2.png" width="30%" />
-  <img src="/assets/result3.png" width="30%" />
+  <img src="/assets/result1.jpg" width="30%" />
+  <img src="/assets/result2.jpg" width="30%" />
+  <img src="/assets/result3.jpg" width="30%" />
 </p>
 ```     
 python sam_infer.py --image_path {PATH_TO_IMAGE_OR_DIR} --pretrained_model weights/model.pt --save_dir results
