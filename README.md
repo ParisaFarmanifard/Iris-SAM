@@ -48,10 +48,15 @@ The inference command can either take a single image or a directory containing m
 python sam_infer.py --image_path {PATH_TO_IMAGE_DIR} -extension jpg --pretrained_model weights/model.pt --save_dir results
 ```
 ## Results
-<p align="center" style="display: flex; justify-content: center; align-items: center;">
-<!--   <img src="/assets/result1.jpg" alt="Result 1" style="width: 300px; margin: 10px;" /> -->
-  <img src="/assets/result2.jpg" alt="Result 2" style="width: 300px; margin: 20px;" />
-  <img src="/assets/result3.jpg" alt="Result 3" style="width: 300px; margin: 10px;" />
+<p align="center" style="display: flex; justify-content: space-around; align-items: center;">
+  <div>
+    <img src="/assets/GT_Mask.jpg" alt="Ground Truth Mask" style="width: 100%;" />
+    <p style="text-align: center;">GT Mask</p>
+  </div>
+  <div>
+    <img src="/assets/Pred_Mask.jpg" alt="Predicted Mask" style="width: 100%;" />
+    <p style="text-align: center;">Pred Mask</p>
+  </div>
 </p>
 
 If you get errors with cv2 while plotting bboxes on the image, uninstall and install OpenCV as follows:
