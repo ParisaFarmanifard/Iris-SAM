@@ -1,5 +1,5 @@
 # Iris Segmentation Using a Foundation Model
-This repository contains the code for training and inference of Iris-SAM.
+This repository contains the code for training and inference of Iris-SAM (Published at ICPRAI2024).
 
 ## Abstract
 **Iris segmentation** is a critical component of an iris biometric system and involves extracting the annular iris region from an ocular image. In this work, we develop a **pixel-level iris segmentation model** from a foundation model, viz., Segment Anything Model (SAM), that has been successfully used for segmenting arbitrary objects. The primary contribution of this work lies in the integration of different loss functions during the fine-tuning of SAM on ocular images. In particular, the importance of **Focal Loss** is borne out in the fine-tuning process since it strategically addresses the class imbalance problem (i.e., iris versus non-iris pixels). Experiments on **ND-IRIS-0405**, **CASIA-Iris-Interval-v3**, and **IIT-Delhi-Iris** datasets convey the efficacy of the trained model for the task of iris segmentation. For instance, on the ND-IRIS-0405 dataset, an average segmentation accuracy of **99.58%** was achieved, compared to the best baseline performance of **89.75%**.
