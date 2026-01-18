@@ -75,7 +75,7 @@ P. Farmanifard and A. Ross, "Iris-SAM: Iris Segmentation Using a Foundation Mode
 
 ```
 ## Model
-Iris-SAM is released for public use and may be used in research and other projects, provided that the original authors are properly cited.
+Iris-SAM model is released for public use and may be used in research and other projects, provided that the original authors are properly cited.
 
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
