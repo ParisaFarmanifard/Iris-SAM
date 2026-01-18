@@ -74,6 +74,9 @@ If you find this repository useful, please consider giving a star ⭐ and a cita
 P. Farmanifard and A. Ross, "Iris-SAM: Iris Segmentation Using a Foundation Model," Proc. of 4th International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI), (Jeju Island, South Korea), July 2024.
 
 ```
+## Model
+Iris-SAM is released for public use and may be used in research and other projects, provided that the original authors are properly cited.
+
 ## Acknowledgmenets
 - We thank the University of Salzburg and Halmstad University for providing the ground truth datasets.
 - We thank Meta AI for making the source code of [SAM](https://github.com/facebookresearch/segment-anything) publicly available.
